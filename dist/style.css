@@ -31,12 +31,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.header .menu__list {
+
+.menu__list {
   display: flex;
   margin-left: 100px;
   margin-top: 5px;
 }
-.header .menu__list-item {
+.menu__list-item {
   margin-right: 40px;
   font-size: 12px;
   line-height: 24px;
@@ -44,25 +45,28 @@ body {
   letter-spacing: 0.02em;
   color: #1b0a42;
 }
-.header .menu__list-item:hover {
+.menu__list-item:hover {
   background: #FC569A;
   transition: 0.5s;
 }
-.header .menu__list-item:last-child {
+.menu__list-item:last-child {
   margin-left: 400px;
   margin-right: 0;
 }
-.header .header__button {
+
+.header__button {
   font-size: 12px;
   color: #ffffff;
   background-color: #FC569A;
   border-radius: 6px;
   margin-left: 40px;
   border: none;
+  outline: none;
   width: 90px;
   height: 40px;
 }
-.header .header__button:hover {
+
+.header__button:hover {
   background-color: #881645;
 }
 
@@ -70,35 +74,36 @@ body {
   display: flex;
   justify-content: center;
 }
-.main .main__info {
+.main__info {
   margin-top: 210px;
   margin-left: 200px;
 }
-.main .main__info-title {
+.main__info-title {
   width: 425px;
   font-family: Ramaraja;
   font-size: 55px;
   color: #1b0a42;
 }
-.main .main__text {
+.main__text {
   width: 500px;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #9a9a9a;
   line-height: 32px;
 }
-.main .main__button {
+.main__button {
   font-size: 12px;
   color: #ffffff;
   background-color: #FC569A;
   border-radius: 6px;
   margin-top: 50px;
   border: none;
+  outline: none;
   width: 100px;
   height: 40px;
   text-align: center;
 }
-.main .main__button:hover {
+.main__button:hover {
   background-color: #881645;
 }
 
